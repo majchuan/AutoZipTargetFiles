@@ -1,0 +1,3 @@
+C:\Users\mama3\source\repos\AutoZipTargetFiles\AutoZipTargetFiles\bin\Release\net6.0\win-x64\publish\appsettings.json
+C:\Users\mama3\source\repos\AutoZipTargetFiles\AutoZipTargetFiles\bin\Release\net6.0\win-x64\publish\AutoZipTargetFiles.pdb
+C:\Users\mama3\source\repos\AutoZipTargetFiles\AutoZipTargetFiles\bin\Release\net6.0\win-x64\publish\AutoZipTargetFiles.exe

@@ -1,3 +1,0 @@
-C:\Users\mama3\source\repos\AutoZipTargetFiles\publish\appsettings.json
-C:\Users\mama3\source\repos\AutoZipTargetFiles\publish\AutoZipTargetFiles.pdb
-C:\Users\mama3\source\repos\AutoZipTargetFiles\publish\AutoZipTargetFiles.exe

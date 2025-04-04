@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AutoZipTargetFiles")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e66e24eebee8e9d4134bada82dafb1d30adebc5a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutoZipTargetFiles")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutoZipTargetFiles")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

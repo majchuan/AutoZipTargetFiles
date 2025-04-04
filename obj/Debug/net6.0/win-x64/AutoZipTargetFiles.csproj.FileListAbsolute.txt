@@ -250,7 +250,6 @@ C:\Users\mama3\source\repos\AutoZipTargetFiles\AutoZipTargetFiles\bin\Debug\net6
 C:\Users\mama3\source\repos\AutoZipTargetFiles\AutoZipTargetFiles\bin\Debug\net6.0\win-x64\hostfxr.dll
 C:\Users\mama3\source\repos\AutoZipTargetFiles\AutoZipTargetFiles\bin\Debug\net6.0\win-x64\hostpolicy.dll
 C:\Users\mama3\source\repos\AutoZipTargetFiles\AutoZipTargetFiles\bin\Debug\net6.0\win-x64\mscordaccore.dll
-C:\Users\mama3\source\repos\AutoZipTargetFiles\AutoZipTargetFiles\bin\Debug\net6.0\win-x64\mscordaccore_amd64_amd64_6.0.1823.26907.dll
 C:\Users\mama3\source\repos\AutoZipTargetFiles\AutoZipTargetFiles\bin\Debug\net6.0\win-x64\mscordbi.dll
 C:\Users\mama3\source\repos\AutoZipTargetFiles\AutoZipTargetFiles\bin\Debug\net6.0\win-x64\mscorrc.dll
 C:\Users\mama3\source\repos\AutoZipTargetFiles\AutoZipTargetFiles\bin\Debug\net6.0\win-x64\msquic.dll
@@ -267,3 +266,5 @@ C:\Users\mama3\source\repos\AutoZipTargetFiles\AutoZipTargetFiles\obj\Debug\net6
 C:\Users\mama3\source\repos\AutoZipTargetFiles\AutoZipTargetFiles\obj\Debug\net6.0\win-x64\AutoZipTargetFiles.genruntimeconfig.cache
 C:\Users\mama3\source\repos\AutoZipTargetFiles\AutoZipTargetFiles\obj\Debug\net6.0\win-x64\ref\AutoZipTargetFiles.dll
 C:\Users\mama3\source\repos\AutoZipTargetFiles\AutoZipTargetFiles\bin\Debug\net6.0\win-x64\appsettings.json
+c:\Users\mama3\source\repos\AutoZipTargetFiles\AutoZipTargetFiles\bin\Debug\net6.0\win-x64\mscordaccore_amd64_amd64_6.0.3624.51421.dll
+c:\Users\mama3\source\repos\AutoZipTargetFiles\AutoZipTargetFiles\obj\Debug\net6.0\win-x64\AutoZipTargetFiles.sourcelink.json

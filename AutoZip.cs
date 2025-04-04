@@ -1,4 +1,5 @@
 using System.IO.Compression;
+using System.IO;
 using SendGrid;
 using SendGrid.Helpers.Mail;
 
@@ -72,7 +73,7 @@ public static class AutoZip
             {
                 foreach(var aFile in files)
                 {
-                    if(targetFileNames != null && targetFileNames.Contains(aFile.Name))
+                    if(targetFileNames != null && targetFileNames.Contains(Path.GetFileNameWithoutExtension(aFile.Name)))
                     {
                         CopyFileToTargetDir(aFile, targetDirectoryName);
                     }

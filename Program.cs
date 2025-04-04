@@ -10,7 +10,7 @@ using IHost host = Host.CreateApplicationBuilder(args).Build();
 IConfiguration config = host.Services.GetRequiredService<IConfiguration>();
 
 string? sourceRootDirectory = config.GetValue<string>("sourceFiles:RootDirectory");
-string? fromUserEmail = config.GetValue<string>("sourceFiles:sourceEmailAddr");
+string? fromUserEmail = config.GetValue<string>("sourceFiles:sourceEma5ilAddr");
 string? targetDirectory = config.GetValue<string>("targetFiles:Directory");
 string[]? targetFileNames = config.GetSection("targetFiles:FileNames").Get<string[]>(); 
 string? targetUserEmail = config.GetValue<string>("targetFiles:targetUserEmailAddr");
@@ -21,6 +21,13 @@ var fileCreateTime = new TimeSpan(DateTime.Now.Hour, DateTime.Now.Minute, DateTi
 
 zipDir += "\\"+targetUserName +"_"+ fileCreateTime;
 targetDirectory +="\\"+ targetUserName +"_"+ fileCreateTime;
+
+//clean up targetFileNames.
+if(targetFileNames != null){
+    for(var i = 0 ; i < targetFileNames.Length ; i++){
+        targetFileNames[i] = Path.GetFileNameWithoutExtension(targetFileNames[i]);
+    }
+}
 
 try{
     AutoZip.LookUpFile(sourceRootDirectory, targetDirectory, targetFileNames);
